@@ -1,0 +1,10 @@
+/target
+/bin
+.classpath
+.project
+/.settings
+/.idea
+*.jar
+*.txt
+*.bat
+*.json

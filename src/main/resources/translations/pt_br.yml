@@ -1,0 +1,43 @@
+# _______          __  .__           _____          __  .__   __________        .__                
+# \      \   _____/  |_|__| ____    /  _  \  __ ___/  |_|  |__\______   \_______|__| _____   ____  
+# /   |   \_/ __ \   __\  |/    \  /  /_\  \|  |  \   __\  |  \|     ___/\_  __ \  |/     \_/ __ \  [X] Full-Edition 0.0.1
+#/    |    \  ___/|  | |  |   |  \/    |    \  |  /|  | |   Y  \    |     |  | \/  |  Y Y  \  ___/  [ ] Lite-Edition 0.0.1
+#\____|__  /\___  >__| |__|___|  /\____|__  /____/ |__| |___|  /____|     |__|  |__|__|_|  /\___  >
+#        \/     \/             \/         \/                 \/                          \/     \/ 
+
+#OBS: Nao utilize acentuacoes.
+#O uso de '\n' voce cria outra linha *EX: "<prefix> Ola\njogador."*.
+
+PLUGIN_PREFIX: '&f&oNetinAuth &c&l>'
+
+PLEASE_REGISTER: '<prefix> &7Registre usando: /register [senha].'
+PLEASE_LOGIN: '<prefix> &7Logue usando: /login [senha].'
+SUCCESSFUL_LOGIN: '<prefix> &aVoce logou.'
+INCORRECT_PASSWORD: '<prefix> &cSenha incorreta.'
+INCORRECT_ARGS: '<prefix> &cSua senha n�o pode ter espacos.'
+ALREADY_REGISTERED: '<prefix> &cVoce ja esta registrado.'
+ALREADY_LOGGED_IN: '<prefix> &cVoce ja esta logado.'
+SUCCESSFUL_REGISTER: '<prefix> &aVoce se registrou.'
+CONFIG_RELOADED: '<prefix> &aConfiguracao recarregada com sucesso.'
+NEED_TO_LOGIN_FIRST: '<prefix> &cVoce precisa logar primeiro para trocar sua senha.'
+INVALID_CHANGEPASS_ARGS: '<prefix> &7Troque sua senha usando: /changepassword [senha_atual] [nova_senha].'
+INCORRECT_ACTUAL_PASSWORD: '<prefix> &cA senha atual esta incorreta.'
+SAME_PASSWORD: '<prefix> &cVoce nao pode trocar para a mesma senha.'
+NEW_PASSWORD_CANNOT_HAVE_SPACES: '<prefix> &cNova senha nao pode ter espacos.'
+YOU_CANNOT_CHANGE_PASSWORD: '<prefix> &cVoce nao pode mudar de senha.'
+PASSWORD_CHANGED: '<prefix> &aSenha modificada com sucesso.'
+PASSWORD_SO_BIG: '<prefix> &cSenha muito grande.'
+NAME_IS_SO_BIG: 'Seu nome e muito grande.'
+YOU_ARE_A_PREMIUM_PLAYER: '<prefix> &cVoce e um player original.'
+CANT_CHANGE_PASSWORD: '<prefix> &cVoce nao pode mudar sua senha.'
+
+COMPATIBLE_SERVER: '/ Versao compativel encontrada, usando: <version>.'
+NOT_COMPATIBLE_SERVER: '/ Essa versao do servidor nao e compativel. Desativando plugin...'
+ONLY_USING_THE_PLUGIN: '/ Apenas utilizando o plugin <plugin_name> para autenticar os players originais.'
+REFUSED_PLAYER_CONNECTION: '/ Conexao com o player <player> foi cancelada.'
+ONLY_USABLE_AS_A_PLAYER: '/ Apenas usavel como um player.'
+IMPOSSIBLE_TO_SET_ONLINE_MODE: '/ Nao e possivel setar o online-mode para true, faca isso manualmente.'
+MYSQL_CONNECTION_ERROR: '/ Nao foi possivel conectar com o MySQL.'
+IMPOSSIBLE_TO_SAVE_CONFIG: '/ Nao foi possivel salvar a configuracao data.yml.'
+CONNECTED_WITH_MYSQL: '/ Conectado com o MySQL.'
+CONNECTING_WITH_MYSQL: '/ Conectando com o MySQL...'

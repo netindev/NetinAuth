@@ -1,0 +1,13 @@
+name: NetinAuthPrime
+main: gq.netin.auth.Bukkit
+author: netindev
+version: 0.0.1-SNAPSHOT full-edition
+description: 'Login-register plugin for cracked servers and premium player checker'
+commands:
+   login:
+      description: 'Login on this server, if you already registered.'
+   register:
+      description: 'Register on this server, to able to play.'
+   changepassword:
+      aliases: [changepass]
+      description: 'Command that you can change your password.'

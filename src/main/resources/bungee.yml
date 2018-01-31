@@ -1,0 +1,4 @@
+name: NetinAuth
+main: tk.netindev.auth.Bungee
+version: 0.0.1-SNAPSHOT full-edition
+author: netindev

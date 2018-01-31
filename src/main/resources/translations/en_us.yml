@@ -1,0 +1,43 @@
+# _______          __  .__           _____          __  .__   __________        .__                
+# \      \   _____/  |_|__| ____    /  _  \  __ ___/  |_|  |__\______   \_______|__| _____   ____  
+# /   |   \_/ __ \   __\  |/    \  /  /_\  \|  |  \   __\  |  \|     ___/\_  __ \  |/     \_/ __ \  [X] Full-Edition 0.0.1
+#/    |    \  ___/|  | |  |   |  \/    |    \  |  /|  | |   Y  \    |     |  | \/  |  Y Y  \  ___/  [ ] Lite-Edition 0.0.1
+#\____|__  /\___  >__| |__|___|  /\____|__  /____/ |__| |___|  /____|     |__|  |__|__|_|  /\___  >
+#        \/     \/             \/         \/                 \/                          \/     \/ 
+
+#Sorry for my bad english xD.
+#Use '\n' to create another line *EX: "<prefix> Hi\nplayer."*.
+
+PLUGIN_PREFIX: '&f&oNetinAuth &c&l>'
+
+PLEASE_REGISTER: '<prefix> &7Please register: /register [password].'
+PLEASE_LOGIN: '<prefix> &7Please login: /login [password].'
+SUCCESSFUL_LOGIN: '<prefix> &aYou logged in.'
+INCORRECT_PASSWORD: '<prefix> &cIncorrect password.'
+INCORRECT_ARGS: '<prefix> &cYour password can not contain blank spaces.'
+ALREADY_REGISTERED: '<prefix> &cYou are already registered.'
+ALREADY_LOGGED_IN: '<prefix> &cYou are already logged in.'
+SUCCESSFUL_REGISTER: '<prefix> &aSuccessful register.'
+CONFIG_RELOADED: '<prefix> &aConfiguration reloaded successfully.'
+NEED_TO_LOGIN_FIRST: '<prefix> &cYou need to login first.'
+INVALID_CHANGEPASS_ARGS: '<prefix> &7Change your password using: /changepassword [actual_password] [new_password].'
+INCORRECT_ACTUAL_PASSWORD: '<prefix> &cYour actual password is incorrect.'
+SAME_PASSWORD: '<prefix> &cYou cannot change to same password.'
+NEW_PASSWORD_CANNOT_HAVE_SPACES: '<prefix> &cYou new password cannot have spaces.'
+YOU_CANNOT_CHANGE_PASSWORD: '<prefix> &cYou cannot change the password.'
+PASSWORD_CHANGED: '<prefix> &aYou have changed your password.'
+PASSWORD_SO_BIG: '<prefix> &cVery big password.'
+NAME_IS_SO_BIG: 'Your name is so big.'
+YOU_ARE_A_PREMIUM_PLAYER: '<prefix> &cYou are a premium player.'
+CANT_CHANGE_PASSWORD: '<prefix> &cYou cant change your password.'
+
+COMPATIBLE_SERVER: '/ Compatible version found, using: <version>.'
+NOT_COMPATIBLE_SERVER: '/ Incompatible version found. Disabling plugin...'
+ONLY_USING_THE_PLUGIN: '/ Only using the plugin <plugin_name> for premium auth bypass.'
+REFUSED_PLAYER_CONNECTION: '/ Connection with the player <player> has cancelled.'
+ONLY_USABLE_AS_A_PLAYER: '/ Only usable as a player.'
+IMPOSSIBLE_TO_SET_ONLINE_MODE: '/ Cannot change the online-mode to true, make this manually.'
+MYSQL_CONNECTION_ERROR: '/ Is not possible to connect with the MySQL.'
+IMPOSSIBLE_TO_SAVE_CONFIG: '/ Is not possible to save the data.yml configuration.'
+CONNECTED_WITH_MYSQL: '/ Successfully connected with MySQL.'
+CONNECTING_WITH_MYSQL: '/ Connecting with MySQL...'

@@ -1,0 +1,73 @@
+# _______          __  .__           _____          __  .__   __________        .__                
+# \      \   _____/  |_|__| ____    /  _  \  __ ___/  |_|  |__\______   \_______|__| _____   ____  
+# /   |   \_/ __ \   __\  |/    \  /  /_\  \|  |  \   __\  |  \|     ___/\_  __ \  |/     \_/ __ \  [X] Full-Edition 0.0.1
+#/    |    \  ___/|  | |  |   |  \/    |    \  |  /|  | |   Y  \    |     |  | \/  |  Y Y  \  ___/  [ ] Lite-Edition 0.0.1
+#\____|__  /\___  >__| |__|___|  /\____|__  /____/ |__| |___|  /____|     |__|  |__|__|_|  /\___  >
+#        \/     \/             \/         \/                 \/                          \/     \/ 
+
+#Working with these versions, (Spigot, CraftBukkit and PaperSpigot support):
+#1.7R1, R2, R3, R4;
+#1.8R1, R2, R3;
+#1.9R1, R2;
+#1.10R1;
+#1.11R1;
+#1.12R1;
+
+#LANG | (EN_US = English-US):
+
+#DETECT = Try to detect the system language automatically
+#PT_BR = Portugues-BR
+#EN_US = English-US
+
+LANG: DETECT
+
+#Cancel player move event when is on login/register session.
+BLOCK_ON_MOVE: true
+
+#Join messages.
+REMOVE_JOIN_MESSAGE: true
+
+REMOVE_QUIT_MESSAGE: true
+
+#In seconds.
+TIME_TO_REPEAT_LOGIN_MESSAGE: 4
+
+USE_MYSQL: false
+
+#Only works if the 'ONLY_USE_PREMIUM_CHECKER' is false.
+MYSQL:
+   HOSTNAME: 'localhost'
+   PORT: '3306'
+   DATABASE: 'netinauth'
+   USERNAME: 'root'
+   PASSWORD: ''
+
+ONLY_USE_PREMIUM_CHECKER: false
+
+#xAuth is broken, you need to make your own API.
+#Only works if the 'ONLY_USE_PREMIUM_CHECKER' is true.
+PLUGIN_AUTO_LOGIN:
+   #Project page: https://dev.bukkit.org/projects/authme
+   AUTHME: false
+   
+#               __ 
+#_____  ______ |__|
+#\__  \ \____ \|  |
+# / __ \|  |_> >  |
+#(____  /   __/|__|
+#     \/|__|   
+
+#Bungee-API:
+
+#tk.netindev.netinauth.event.bungee.PlayerPreCheckEvent
+#tk.netindev.netinauth.event.bungee.PlayerCheckEvent
+
+#Bukkit-API:
+
+#tk.netindev.netinauth.event.bukkit.PlayerCheckEvent
+
+#Only if ONLY_USE_PREMIUM_CHECKER is false:
+
+#tk.netindev.netinauth.event.bukkit.PlayerLoginEvent
+#tk.netindev.netinauth.event.bukkit.PlayerRegisterEvent
+#tk.netindev.netinauth.event.bukkit.PlayerChangePasswordEvent
